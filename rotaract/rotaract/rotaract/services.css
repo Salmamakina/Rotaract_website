@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+.container_service{
+    
+    margin: auto;
+}
+.service_p{
+    color: #9F2955;
+    font-size: large;
+    margin-top: 27px;
+    margin-left: 22px;
+    font-weight: 600;
+}
+.service_body_left{
+    margin-top: 50px;
+    width: 50%;
+    position: relative;
+    margin-left: 90px;
+}
+.service_body_right{
+    margin-top: -2047px;
+    width: 45%;
+    position: relative;
+    margin-left:55% ;
+}
+
+.service_body_left img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    width: 445px;
+}
+.service_body_right img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    width: 445px;
+}
+.paragraph{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 54%;
+    margin-bottom: 136px;
+}
+.paragraph1{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+    

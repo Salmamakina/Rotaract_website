@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    
+}
+#container{
+    
+    margin: auto;
+}
+#logo{
+    width:150px;
+    height: 146px;
+}
+
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#phone{
+    display: flex;
+    position: absolute;
+    right: 470px;
+}
+
+.img{
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 88%;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+nav{
+    background-color:#9F2955;
+    margin-bottom: 29px;
+    border-radius: 50px;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9F2955;
+    color: white;
+    height: 360px;
+    margin-top: 131px;
+}
+#p11 {
+    margin-left: -332px;
+}
+#p12 {
+    margin-left: -245px;
+    margin-top: 43px;
+    
+}
+#p13 {
+    margin-left: 60px;
+    margin-block: auto;
+    margin-top: -177px;
+}
+
+#email{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 16px;
+ 
+}
+#email a{
+    color:white;
+    text-decoration: underline;
+}
+.p4{
+    font-size: medium;
+    margin: 3px;
+    font-weight: 550;
+    margin-left: 12px;
+}
+a:-webkit-any-link {
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar_menu{
+    font-style: normal;
+    font-weight: bold;
+}
+#phone1{
+    display: flex;
+    position: absolute;
+    
+}
+
+#phone1 .img{
+    height: 25px;
+    width: 25px;
+    
+}
+#p11 img{
+    width: 293px;
+    height: 360px;
+}
+#footer_left{
+    margin-left: -809px;
+}
+#footer_right{
+    margin-left: 36%;
+    margin-top: -319px;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+.video {
+    width: 40%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.video video {
+    width: 80%; 
+    height: auto; 
+    max-width: 80%; 
+    max-height: 80%; 
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+.description {
+    margin-top: 5px; 
+    margin-left: 5px;
+    font-family: sans-serif;
+  }
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-style:italic;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+}

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    
+}
+#container{
+    
+    margin: auto;
+}
+#logo{
+    width:150px;
+    height: 146px;
+}
+
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#phone{
+    display: flex;
+    position: absolute;
+    right: 470px;
+}
+
+.img{
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 88%;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+nav{
+    background-color:#9F2955;
+    margin-bottom: 29px;
+    border-radius: 50px;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+
+
+}
+
+/*#background {background-color: rgb(225, 225, 225,0.5);}*/
+#background img{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(#9b202d83,#ffffff6e);
+    filter: brightness(100%) contrast(40%);
+}
+#background h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left:600px;
+    font-weight: bold;
+    letter-spacing: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#background h3{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 300px;
+    left:380px;
+    font-weight: bold;
+    letter-spacing: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#partie1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#sec_gauche img{
+    height: 500px;
+    margin-top: 50px;
+    width:700px;
+    
+}
+#sec_droite{
+    margin-top: 125px;
+    text-align: justify;
+    margin-left: 94px;
+    font-style: italic;
+    letter-spacing: 2;
+}
+#sec_droite h2{
+    text-align: center;
+}
+#partie2 h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#icones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#icones img{
+    height:100px;
+    width:100px;
+}
+.im{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 400px
+
+}
+#partie3 h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#statique{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f3f8;
+}
+.st{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    margin-top: 68px;
+}
+#p1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+#p13 img{
+    height: 25px;
+}
+#p2{
+    margin-top: 100px;
+    margin-left: -59px;
+}
+#p2 img{
+    height: 29px;
+    margin: 13px;
+    width: 29px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9F2955;
+    color: white;
+    height: 360px;
+    margin-top: 131px;
+}
+#p11 {
+    margin-left: -332px;
+}
+#p12 {
+    margin-left: -245px;
+    margin-top: 43px;
+    
+}
+#p13 {
+    margin-left: 60px;
+    margin-block: auto;
+    margin-top: -177px;
+}
+
+#email{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 16px;
+ 
+}
+#email a{
+    color:white;
+    text-decoration: underline;
+}
+.p4{
+    font-size: medium;
+    margin: 3px;
+    font-weight: 550;
+    margin-left: 12px;
+}
+a:-webkit-any-link {
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar_menu{
+    font-style: normal;
+    font-weight: bold;
+}
+#phone1{
+    display: flex;
+    position: absolute;
+    
+}
+
+#phone1 .img{
+    height: 25px;
+    width: 25px;
+    
+}
+#p11 img{
+    width: 293px;
+    height: 360px;
+}
+#footer_left{
+    margin-left: -809px;
+}
+#footer_right{
+    margin-left: 36%;
+    margin-top: -319px;
+}

@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotaract Tunisie (Coordination Nationale)</title>
+    <link rel="stylesheet" href="home.css">
+    <script language="JavaScript">
+        var images = new Array ();
+        images[0]="c1.jpg";
+        images[1]="c2.jpg";
+        images[2]="c3.jpg";
+        var indice = 0;
+        function changerImage()
+        {
+            document.getElementById("monimage").src = images[indice];
+            if (indice < images.length - 1)
+            {
+                indice ++;
+            }
+            else
+            {
+                indice = 0;
+            }
+            setTimeout("changerImage()",3000)
+        }
+
+        window.onload = function ()
+        {
+            changerImage();
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header >
+            <img id="logo" src="slg.png" >
+            <div id="nav">
+                <div id="top">
+                    <div id="phone">
+                        <img src="whatsapp.png" alt="" class="img">
+                        <p class="p4">(+216) 52 128 123</p>
+                    </div>
+                    <a href = "https://www.linkedin.com/company/rotaract-tunis-hope/?trk=public_profile_volunteering-position_profile-section-card_full-click&originalSubdomain=fr"> <img src="linkedin.png" alt="" class="img"></a>
+                    <a href ="https://www.instagram.com/rotaract_tunisie/"><img src="instagram.png" alt="" class="img"></a>
+                    <a href="https://www.facebook.com/Rotaract.Tunisie"><img src="facebook.png" alt="" class="img"></a>
+               </div>
+                <nav>
+                    <ul>
+                        <li class="navbar_menu"><a href="home.html">Accueil</a></li>
+                        <li class="navbar_menu"><a href="événement.html">Evénements</a></li>
+                        <li class="navbar_menu"><a href="services.html">Services</a></li>
+                        <li class="navbar_menu"><a href="reclamer.php">Réclamation</a></li>
+                        <li class="navbar_menu"><a href="Rejoignez%20nous.php">Rejoignez-nous</a></li>
+                        <li class="navbar_menu"><a href="dons.php">Dons</a></li>
+                    </ul>
+                </nav>
+            </div>
+           
+        </header>
+        <div id="background">
+            <img src="background.png">
+            <h1>BIENVENUE</h1>
+            <h3>A COORDINATION NATIONALE DES ROTARACTS CLUBS DE LA TUNISIE</h3>
+        </div>
+        <div id="partie1">
+            <div id="sec_gauche">
+                <img src="c1.jpg" id="monimage"/>
+            </div>
+            <div id="sec_droite">
+                <h2>A PROPOS</h2>
+                <P>C’est une organisation à but non lucratif qui rassemble les Clubs Rotaract Tunisiens. 
+                    Les Clubs Rotaract réunissent des jeunes d'au moins 18 ans pour échanger des idées avec les décideurs locaux , développer leurs compétences professionnelles et leur leadership et monter des actions dans la bonne humeur.Les actions des rotaract
+                    clubs tunisiens  participent à la construction de la paix en favorisant la diversité et l'inclusion.Ils mènent également  des projets axés essentiellement sur la résolution des problèmes locaux tels que l’accès à l’éducation, la réduction de la pauvreté, l’accès à l’eau potable , la santé et la protection de l’environnement.Ces projets peuvent aider à réduire les tensions sociales et économiques.
+                </P>
+            </div>
+        </div>
+        <div id="partie2">
+            <h1>Nos Services</h1>
+            <div id="icones">
+                <div class="im">
+                    <img src="paix.png" alt="">
+                    <p>PAIX ET RÉSOLUTION DES CONFLITS</p>
+                </div>
+                <div class="im">
+                    <img src="maladie.png" alt="">
+                    <p>PRÉVENTION ET TRAITEMENT DES MALADIES</p>
+                </div>
+                <div class="im">
+                    <img src="abc.png" alt="">
+                    <p>ALPHABÉTISATION ET ÉDUCATION DE BASE</p>
+                </div>
+                <div class="im">
+                    <img src="water.png" alt="">
+                    <p>EAU ET ASSAINISSEMENT</p>
+                </div>
+                <div class="im">
+                    <img src="eco.png" alt="">
+                    <p>DÉVELOPPEMENT ÉCONOMIQUE ET LOCAL</p>
+                </div>
+                <div class="im">
+                    <img src="envir.png" alt="">
+                    <p>PROTECTION DE L'ENVIRONNEMENT</p>
+                </div>
+                <div class="im">
+                    <img src="mother.png" alt="">
+                    <p>SANTÉ DE LA MÈRE ET DE L’ENFANT</p>
+                </div>
+            </div>
+           
+    
+        </div>
+        <div id="partie3">
+            <h1>Statistiques</h1>
+            <div id="statique">
+                <div class="st">
+                    <h1>+3500</h1>
+                    <h3>Rotaractiens</h3>
+                </div>
+                <div class="st">
+                    <h1>79</h1>
+                    <h3>Club</h3>
+                </div>
+                <div class="st">
+                    <h1>+10</h1>
+                    <h3>Actions</h3>
+                </div>
+
+            </div>
+           
+    
+        </div>
+        <footer>
+            <div id="footer_left">
+                <div id="p11">
+                    <img src="logo.jpg" alt="">
+                </div>
+            </div>
+            <div id="footer_right">
+                <div id="p12">
+                    <h3>MENU</h3>
+                    <ul>
+                        <li class="navbar_menu"><a href="home.html">Accueil</a></li>
+                        <li class="navbar_menu"><a href="événement.html">Evénements</a></li>
+                        <li class="navbar_menu"><a href="services.html">Services</a></li>
+                        <li class="navbar_menu"><a href="reclamer.php">Réclamation</a></li>
+                        <li class="navbar_menu"><a href="Rejoignez%20nous.php">Rejoignez-nous</a></li>
+                        <li class="navbar_menu"><a href="dons.php">Dons</a></li>
+                    </ul>
+                </div>
+                <div id="p13">
+                    <h3>Contactez-nous</h3>
+                    <div id="phone1">
+                        <img src="whatsapp.png" alt="" class="img">
+                        <p class="p4">(+216) 52 128 123</p>
+                    </div>
+                    <div id="email">
+                        <img src="email.png" alt="">
+                        <a href="mailto: coordination.nationale.tunisie@gmail.com"> <p class="p4"> coordination.nationale.tunisie@gmail.com</p></a>
+                    </div>
+        
+                </div>
+            
+            
+                <div id="p2">
+                    <a href="https://www.facebook.com/Rotaract.Tunisie"><img src="facebook2.png" alt=""></a>
+                    <a href="https://www.instagram.com/rotaract_tunisie/" ><img src="instagram2.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/rotaract-tunis-hope/?trk=public_profile_volunteering-position_profile-section-card_full-click&originalSubdomain=fr"><img src="linkedin2.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
